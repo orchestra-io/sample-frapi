@@ -1,6 +1,7 @@
 <?php
 // If you remove this. You might die.
-define('FRAPI_CACHE_ADAPTER', 'apc');
+define('FRAPI_CACHE_ADAPTER', 'dummy');
+// We made this dummy for the orchestra free app.
 
 // Use the constant CUSTOM_MODEL to access the custom model directory
 // IE: require CUSTOM_MODEL . DIRECTORY_SEPARATOR . 'ModelName.php';
